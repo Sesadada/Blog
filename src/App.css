@@ -39,12 +39,72 @@
 	padding: 10px 16px;
 	margin: 20px 0;
 	border-bottom: 1px solid #fafafa;
+	border-radius: 10px;
 }
 .blog-preview:hover {
-	box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+	background-color: #f8f1f3;
+	box-shadow: 1px 5px 8px rgba(0, 0, 0, 0.2);
 }
 .blog-preview h2 {
 	font-size: 20px;
 	color: #f1356d;
-	margin-bottom: 8px;
+	margin-bottom: 10px;
+}
+.blog-preview a {
+	text-decoration: none;
+}
+
+.blog-details h2 {
+	font-size: 20px;
+	color: #f1356d;
+	margin-bottom: 10px;
+}
+.blog-details div {
+	margin: 20px 0;
+}
+.blog-details p {
+	padding: 1rem 0;
+}
+.blog-details button {
+	background: #f1356d;
+	color: white;
+	border-radius: 8px;
+	border: 0;
+	padding: 8px;
+	cursor: pointer;
+}
+
+/* Blog Form */
+
+.create {
+	max-width: 400px;
+	margin: 0 auto;
+	text-align: center;
+}
+.create label {
+	text-align: left;
+	display: block;
+}
+.create h2 {
+	font-size: 20px;
+	color: #f1356d;
+	margin-bottom: 30px;
+}
+.create input,
+.create textarea,
+.create select {
+	width: 100%;
+	padding: 6px 10px;
+	margin: 10px 0;
+	border: 1px solid #ddd;
+	box-sizing: border-box;
+	display: block;
+}
+.create button {
+	background-color: #f1356d;
+	color: white;
+	border: 0;
+	padding: 8px;
+	border-radius: 8px;
+	cursor: pointer;
 }
